@@ -31,3 +31,20 @@ cross.addEventListener('click', function(){
     cross.style.display = 'none';
     headerbar.style.right = '-100%';
 })
+
+
+// account page:
+ 
+function showLogin(){
+    document.querySelector('.account2').classList.add('showaccount2');
+    
+   
+}
+function crossLogin(){
+    document.querySelector('.account2').classList.remove('showaccount2');
+}
+
+
+
+
+// var show = document.querySelector(".fa-user").classlist.add
